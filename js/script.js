@@ -5,7 +5,7 @@ function CreateTable() {
     let row = document.querySelector(".rows").value
     let column = document.querySelector(".columns").value
     let table = document.createElement('table')
-    if(!Number.isInteger(row) || !Number.isInteger(column)){
+    if(!Number.isInteger(parseFloat(row)) || !Number.isInteger(parseFloat(column))){
         alert("Rows and Columns quantity must be an integer value")
         return
     }
