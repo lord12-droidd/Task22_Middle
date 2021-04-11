@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    height: 80px;
+    width: 500px;
+    align-self: center;
+}
+.fields{
+    display: flex;
+    justify-content: center;
+}
+.wrapper input{
+    display: flex;
+    flex-direction: row;
+}
+.createTable{
+    width: fit-content;
+    align-self: center;
+}
+.tableWrapper{
+    align-self: center;
+}
+.tableWrapper table{
+    border-collapse: collapse;
+}
+.tableWrapper td{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.active {
+    background: red;
+}
